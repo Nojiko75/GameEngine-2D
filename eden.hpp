@@ -2,7 +2,7 @@
 #define EDEN_HPP
 
 #include <iostream>
-#include "SDL/SDL.h"
+#include <SDL/SDL.h>
 
 class Eden{
     private:

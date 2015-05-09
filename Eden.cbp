@@ -30,7 +30,12 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL/include" />
 		</Compiler>
+		<Linker>
+			<Add library="libSDLmain.a" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL/lib" />
+		</Linker>
 		<Unit filename="eden.cpp" />
 		<Unit filename="eden.hpp" />
 		<Unit filename="main.cpp" />
